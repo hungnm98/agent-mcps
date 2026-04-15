@@ -20,6 +20,24 @@ npm install
 npm start
 ```
 
+## Run With Docker Compose
+
+```bash
+cd /home/saga/works/hungnm/docker-composes/agent-mcps
+cp .env.example .env
+cp vikunja-mcp.env.example vikunja-mcp.env
+./scripts/start-docker.sh
+```
+
+Files added for Docker flow:
+
+- `docker-compose.yml`
+- `.env.example`
+- `vikunja-mcp.env.example`
+- `scripts/start-docker.sh`
+
+Compose loads env per service via `vikunja-mcp.env` (format `service_name.env`).
+
 The client must always send `vikunja_url` in the SSE URL.
 
 Authentication options:
