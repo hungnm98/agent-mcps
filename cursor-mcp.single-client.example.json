@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "vikunjaTasks": {
+      "url": "http://192.168.1.17:8765/sse?token=YOUR_TOKEN&vikunja_url=https%3A%2F%2Fyour-vikunja-instance.com"
+    }
+  }
+}

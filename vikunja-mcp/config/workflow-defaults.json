@@ -1,0 +1,81 @@
+{
+  "view": {
+    "title": "Workflow",
+    "viewKind": "kanban",
+    "bucketConfigurationMode": "manual"
+  },
+  "labels": [
+    {
+      "title": "ai:handled",
+      "description": "Task participates in the OpenClaw workflow.",
+      "hexColor": "2563eb"
+    },
+    {
+      "title": "ai:triage",
+      "description": "BA/TechLead agent should clarify the task and prepare delivery inputs.",
+      "hexColor": "7c3aed"
+    },
+    {
+      "title": "ai:dev-ready",
+      "description": "Task has enough context and a dev prompt for implementation.",
+      "hexColor": "0f766e"
+    },
+    {
+      "title": "ai:dev-running",
+      "description": "Senior Dev agent is currently implementing the task.",
+      "hexColor": "0284c7"
+    },
+    {
+      "title": "ai:review-ready",
+      "description": "Implementation output is ready for reviewer validation.",
+      "hexColor": "ca8a04"
+    },
+    {
+      "title": "ai:blocked",
+      "description": "Workflow is blocked and needs clarification or a decision.",
+      "hexColor": "dc2626"
+    },
+    {
+      "title": "ai:owner-ready",
+      "description": "Task is ready for owner review before completion.",
+      "hexColor": "16a34a"
+    }
+  ],
+  "buckets": [
+    {
+      "title": "Inbox",
+      "limit": 0,
+      "position": 100
+    },
+    {
+      "title": "Clarifying",
+      "limit": 0,
+      "position": 200
+    },
+    {
+      "title": "ReadyForDev",
+      "limit": 0,
+      "position": 300
+    },
+    {
+      "title": "InDev",
+      "limit": 0,
+      "position": 400
+    },
+    {
+      "title": "InReview",
+      "limit": 0,
+      "position": 500
+    },
+    {
+      "title": "ReadyForOwner",
+      "limit": 0,
+      "position": 600
+    },
+    {
+      "title": "Done",
+      "limit": 0,
+      "position": 700
+    }
+  ]
+}

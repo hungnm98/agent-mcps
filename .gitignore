@@ -1,0 +1,10 @@
+node_modules/
+vikunja-mcp/node_modules/
+vikunja-mcp/data/
+
+.env
+.env.*
+!.env.example
+
+*.log
+.DS_Store
