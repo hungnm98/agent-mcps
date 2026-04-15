@@ -1,0 +1,17 @@
+{
+  "name": "vikunja-task-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "OpenClaw MCP bridge for Vikunja tasks",
+  "scripts": {
+    "start": "node src/server.js",
+    "init:workflow": "node src/init-workflow.js",
+    "test:real": "node --test test/real-api.test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "express": "latest",
+    "zod": "latest"
+  }
+}

@@ -1,0 +1,1 @@
+../.env && set +a && npm run init:workflow -- --project-id 2
